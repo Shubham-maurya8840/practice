@@ -1,0 +1,7 @@
+<?php
+$firstname="shubham";
+$lname="maurya";
+$email="shubham@gmail.com";
+$newarray=compact("firstname","lname","email");
+echo "<pre>";
+print_r($newarray);
